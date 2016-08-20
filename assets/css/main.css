@@ -238,12 +238,13 @@
 			padding: 30px 0px 40px 0px;
 			border-radius: 100%;
 		}
-.btn.btn-default {
-
+.btn-tobais {
 	border-radius: 80px;
-	font-size: 12px;
-	color: #fff;
-    background-color: #333;
+	font-size: 10px;
+	color: #333;
+    background-color: #fff;
+    margin-top: 30px;
+    border: 1px solid;
 }
 .contact {
 
@@ -782,4 +783,22 @@ font-family: arial, sans-serif;
 .tiles{
 
 	margin: 30px 0px;
+}
+img.img-responsive {
+    margin: 15px 0px;
+}
+/*.btn.btn-primary.btn-sm{
+	padding:  20px;
+}
+.btn.btn-default.btn-sm{
+	padding:  10px;
+	margin:  30px;
+}*/
+.btn-tobais.btn-send {
+
+	padding: 8px 35px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 30px;
 }
