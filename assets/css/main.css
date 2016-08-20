@@ -766,3 +766,20 @@ font-family: arial, sans-serif;
 			table.alt tfoot {
 				border-top: 0;
 			}*/
+.img-fit{
+	display: block;
+	min-width: 100%;
+}
+
+.image-text{
+
+	margin:  60px 0px;
+}
+.image-text-text{
+
+	margin: 20px 0px;
+}
+.tiles{
+
+	margin: 30px 0px;
+}
