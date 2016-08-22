@@ -239,12 +239,13 @@
 			border-radius: 100%;
 		}
 .btn-tobais {
-	border-radius: 80px;
-	font-size: 10px;
+	border-radius: 15px;
+	font-size: 9px;
 	color: #333;
-    background-color: #fff;
+    background-color: #ffffff;
     margin-top: 30px;
     border: 1px solid;
+    padding: 10px 20px;
 }
 .contact {
 
@@ -794,11 +795,70 @@ img.img-responsive {
 	padding:  10px;
 	margin:  30px;
 }*/
-.btn-tobais.btn-send {
+.btn-send {
 
-	padding: 8px 35px;
+	padding: 10px 30px;
     background-color: #333;
     color: #fff;
-    border-radius: 30px;
     margin-top: 30px;
+}
+.radio-inline {
+
+	padding: 20px;
+}
+.btn-defalt {
+
+	background-color: #333;
+	color: #fff;
+	padding: 13px 40px;
+	border-radius: 20px;
+}
+.btn-special {
+	padding: 13px 40px;
+	border-radius: 20px;
+}
+.btn-big {
+	background-color: #333;
+	color: #fff;
+	padding: 15px 35px;
+	border-radius: 30px;
+}
+.btn-small {
+	background-color: #333;
+	color: #fff;
+	padding: 7px 25px;
+	border-radius: 30px;
+}
+.btn-fit {
+	background-color: #333;
+	color: #fff;
+	padding: 12px 170px;
+}
+.btn-fit-small {
+	background-color: #333;
+	color: #fff;
+	padding: 12px 153px;
+}
+.btn:hover{
+	color: none;
+}
+.btn-fit-mid {
+	padding: 12px 170px;
+}
+.btn-fit-small-mid {
+	padding: 12px 153px;
+}
+.btn-disabled {
+	background-color: #c1c1c1;
+	color: #fff;
+	padding: 13px 40px;
+	border-radius: 20px;
+	
+}
+.btn-disabled-white {
+	
+	color: #c1c1c1;
+	padding: 13px 40px;
+	border-radius: 20px;
+	
 }
