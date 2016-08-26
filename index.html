@@ -9,7 +9,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700" rel="stylesheet">
-		<link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+		<link rel="stylesheet" href="assets/css/magnific-popup.css">
 
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 	</head>
@@ -49,26 +49,94 @@
 					<!-- Main -->
 					<div class="container">
 						<div class="row">
-							<div class="col-md-12">
+							<div class="col-md-9">
 								<p>Jhone Kabir is a German <span class="orange">award-winning designer</span> raised in Austria & currently living in Stockholm New York City.He had the privillege of working with companies such as Wacom, Sony, Toyta & more. </p>
 							</div>
 						</div>
 						<div class="tiles">
 							<div class="row">
-								<!-- <div class="col-md-6">
-									<img src="images/1.jpg" class="img-responsive" alt="Responsive image" />
+								<div class="col-md-6">
+
+									<a href="#test-popup" class="open-popup-link"><img src="images/1.jpg" class="img-responsive" alt="Responsive image"></a>
+									<div id="test-popup" class="white-popup mfp-hide">
+									  	<div class="container-fluid">
+											<div class="row">
+												<div class="pop-up-color">
+													<div class="col-md-9 p-l-0 p-r-0">
+														<img src="images/1.jpg" class="img-responsive" alt="Responsive image">
+													</div>
+													<div class="col-md-3">
+														<div>
+															<h2 class="pop-head">Glass</h2>
+														</div>
+														<div>
+															<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+														</div>
+														<section class="pop-up-icon">
+															<div class="row">
+																<div class="col-xs-6 col-md-3">
+																	<a href="#" class="icon pop-up fa-facebook"><span class="label">Facebook</span></a>
+																</div>
+																<div class="col-xs-6 col-md-3">
+																	<a href="#" class="icon pop-up fa-twitter"><span class="label">Twitter</span></a>
+																</div>
+																<div class="col-xs-6 col-md-3">
+																	<a href="#" class="icon pop-up fa-google-plus"><span class="label">GooglePlus</span></a>
+																</div>
+																<div class="col-xs-6 col-md-3">
+																	<a href="#" class="icon pop-up fa-pinterest"><span class="label">pinterest</span></a>
+																</div>
+															</div>
+														</section>
+													</div>
+												</div>
+											</div>
+										</div>
+
+									</div>
+
+
+
+									<!-- <a href="#1" id="1" class="inline-popup">
+										<img src="images/1.jpg" class="img-responsive" alt="Responsive image">
+									</a> -->
+
+									<!-- <img src="images/1.jpg" class="img-responsive" alt="Responsive image" />
 									<h2>Glass</h2>
 									<div class="content">
 										<p>Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat.</p>
+									</div> -->
+								</div>
+								<!-- <div id="1" class="white-popup mfp-hide">
+									<div class="container-fluid">
+										<div class="row no-gutter">
+											<div class="col-md-9">
+												<div class="img-wrapper">
+													<img src="images/1.jpg" class="img-responsive" alt="Responsive image">
+												</div>
+											</div>
+											<div class="col-md-3">
+												<div class="img-sidebar">
+													<div class="sidebar-header">
+														<div class="img-title">
+															<h4>Glass</h4>
+														</div>
+														<div class="sidbarcontene">
+															<p>sadsdsdsdgsddfsd</p>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div> -->
-								<div class="col-md-6">
+								<!-- <div class="col-md-6">
 									<button id="open-popup">Open popup</button>
 
 								<div id="my-popup" class="mfp-hide white-popup">
 								  Inline popup
 								</div>
-								</div>
+								</div> -->
 								
 
 								<div class="col-md-6">
@@ -237,6 +305,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<p class="right-color">&copy; Untitled. All rights reserved</p>
+						<a class="test-popup-link" href="images/pic01.jpg">Open popup</a>
 					</div>
 				</div>
 			</section>
@@ -253,10 +322,17 @@
 		<!-- Scripts -->
 			<script src="assets/js/jquery-3.1.0.min.js"></script>
 			<script src="assets/js/bootstrap.min.js"></script>
+			<script src="assets/js/jquery.magnific-popup.min.js"></script>
 			<script src="assets/js/script.js"></script>
-			<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-			<script src="magnific-popup/jquery.magnific-popup.js"></script>
-		    <!-- sidr js -->
+		    <script>
+				// ===== Scroll to Top ==== 
+				
+				$('#top').click(function() {      // When arrow is clicked
+				    $('body,html').animate({
+				        scrollTop : 0                       // Scroll to top of body
+				    }, 500);
+				});
+			</script>
 		    
 		    
 	
