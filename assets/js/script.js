@@ -93,75 +93,11 @@ $(document).ready(function () {
 
 		});
 
-/*$('#1').magnificPopup({
-    items: [
-      {
-        src: 'images/1.jpg' ,
-        
-      },
-      {
-        src: 'http://vimeo.com/123123',
-        type: 'iframe' // this overrides default type
-      },
-      {
-        src: $('<div class="white-popup">Dynamically created element</div>'), // Dynamically created element
-        type: 'inline'
-      },
-      {
-        src: '<div class="white-popup">Popup from HTML string</div>', // HTML string
-        type: 'inline'
-      },
-      {
-        src: '#my-popup', // CSS selector of an element on page that should be used as a popup
-        type: 'inline'
-      }
-    ],
-    gallery: {
-      enabled: true
-    },
-    type: 'image' // this is a default type
-});*/
-
 });
 
-
-/*$(document).ready(function() {
-  $('.test-popup-link').magnificPopup({
-	  type: 'image'
-	  // other options
-	});
-});*/
-
+/*--------------popup------------*/
 $('.open-popup-link').magnificPopup({
   type:'inline',
   midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
 });
 
-/*$('#open-popup').magnificPopup({
-    items: [
-      {
-        src: 'images/2.jpg' ,
-        title: 'Peter & Paul fortress in SPB'
-      },
-      {
-        src: 'http://vimeo.com/123123',
-        type: 'iframe' // this overrides default type
-      },
-      {
-        src: $('<div class="white-popup">Dynamically created element</div>'), // Dynamically created element
-        type: 'inline'
-      },
-      {
-        src: '<div class="white-popup">Popup from HTML string</div>', // HTML string
-        type: 'inline'
-      },
-      {
-        src: '#my-popup', // CSS selector of an element on page that should be used as a popup
-        type: 'inline'
-      }
-    ],
-    gallery: {
-      enabled: true
-    },
-    type: 'image' // this is a default type
-});*/
