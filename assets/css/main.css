@@ -671,36 +671,6 @@ img.img-responsive {
     display: none;
 }
 
-/*figure {
-	
-	position: relative;
-	
-}*/
-
-/*figcaption {
-	background: rgba(0,0,0,0.8);
-	color: white;
-	display: table;
-	height: 100%;
-	left: 0;
-	opacity: 1;
-	position: absolute;
-	right: 0;
-	top: 0;
-	z-index: 100;
-}*/
-
-/*figcaption p {
-	
-	font-size: 1.5em;
-	
-	vertical-align: middle;
-}*/
-
-.a p {
-	
-	  
-}
 /*---------------------------popup----------------------------*/
 .white-popup {
   position: relative;
