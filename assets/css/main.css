@@ -2,6 +2,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 }
+
 blockquote {
 	font-style: italic;
 	border-left: 3px solid #333;
@@ -70,7 +71,7 @@ pre {
     box-shadow: none;
     border-bottom: 1px solid #adadad;
     border-radius: 0px;
-    padding: 15px 0px;
+    padding: 15px;
     height: auto;
 }
 .gt {
@@ -78,7 +79,6 @@ pre {
     box-shadow: none;
     border-bottom: 1px solid #adadad;
     border-radius: 0px;
-    padding: 30px 0px;
     background-color: #f8f8f8;
 }
 
@@ -328,7 +328,7 @@ img.img-responsive {
 .btn-fit-small {
 	background-color: #333;
 	color: #fff;
-	padding: 12px 153px;
+	padding: 8px 153px;
 }
 @media only screen and (max-width: 400px) {
     .btn-fit-small {
@@ -336,7 +336,13 @@ img.img-responsive {
     }
 }
 .btn:hover{
-	color: none;
+	background-color: #fff;
+    color: #333;
+}
+.btn:focus{
+	background-color: #333;
+	color: #fff;
+    text-decoration: none;
 }
 
 .btn-fit-mid {
@@ -739,4 +745,9 @@ img.img-responsive {
 
 .pop-up-color section {
 	margin-top: 250px;
+}
+@media screen and (max-width: 1024px) {
+	.pop-up-color section {
+	margin-top: 25px;
+}
 }
