@@ -3,6 +3,10 @@ body {
 	font-size: 16px;
 }
 
+a:hover {
+	text-decoration: none;
+}
+
 blockquote {
 	font-style: italic;
 	border-left: 3px solid #333;
@@ -50,8 +54,9 @@ pre {
 .fa {
 	margin-right: 10px;
 }
-#top {
+.top {
 	color: #999999;
+
 }
 
 .item1, .item2 {
@@ -202,6 +207,7 @@ pre {
 			border-radius: 100%;
 		}
 .btn-tobais {
+	transition: all 1s ease;
 	border-radius: 15px;
 	font-size: 9px;
 	color: #333;
@@ -220,11 +226,11 @@ pre {
 
 /* Header */
 
-	#header {
+	.header {
 		padding: 8em 0 0.1em 0 ;
 	}
 
-		#header .logo {
+		.header .logo {
 			display: block;
 			border-bottom: 0;
 			color: inherit;
@@ -236,16 +242,16 @@ pre {
 			display: inline-block;
 		}
 
-			#header .logo > * {
+			.header .logo > * {
 				display: inline-block;
 				vertical-align: middle;
 			}
 
-			#header .logo .symbol {
+			.header .logo .symbol {
 				margin-right: 0.65em;
 			}
 
-				#header .logo .symbol img {
+				.header .logo .symbol img {
 					display: block;
 					width: 3.2em;
 					height: 2.5em;
@@ -300,6 +306,8 @@ img.img-responsive {
 	border-radius: 20px;
 }
 .btn-special {
+	background-color: #333;
+	color: #fff;
 	padding: 13px 40px;
 	border-radius: 20px;
 }
@@ -367,6 +375,11 @@ img.img-responsive {
 	padding: 13px 40px;
 	border-radius: 20px;
 	
+	
+}
+
+button[disabled], html input[disabled] {
+	cursor: not-allowed;
 }
 .btn-disabled-white {
 	
@@ -420,7 +433,7 @@ img.img-responsive {
 
 /* Menu */
 
-	#wrapper {
+	.wrapper {
 		-moz-transition: opacity 0.45s ease;
 		-webkit-transition: opacity 0.45s ease;
 		-ms-transition: opacity 0.45s ease;
@@ -750,4 +763,27 @@ img.img-responsive {
 	.pop-up-color section {
 	margin-top: 25px;
 }
+}
+li.social-icons {
+    padding-left: 20px;
+}
+.social-contact {
+    padding-top: 10px;
+    padding-left: 0px;
+}
+.socials-icons a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    /* background: #6DBEC2; */
+    background-color: #49C1DC;
+    float: left;
+    color: white;
+    padding-top: 3px;
+    font-size: 20px;
+}
+.social-contact li {
+    list-style: none;
+    display: inline-block;
 }
