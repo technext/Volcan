@@ -30,10 +30,10 @@ pre {
 .orange {
 	color: #eb7f36;
 }
-.fa-circle-thin, .fa-check-circle, .fa-check-square, .fa-square-o {
+.checkbox-inline, .radio-inline {
 	
 	font-size: 15px;
-	margin: 20px 0px;
+	margin: 25px 0px 0px 0px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -45,10 +45,14 @@ pre {
     font-size: 25px;
     margin-right: 7px;
 }
-.container-fluid {
+.contact {
 	background-color: #f8f8f8;
+	padding-bottom: 20px;
 }
-.container-fluid-1 {
+.contact h1 {
+	padding-bottom: 20px;
+}
+.social-contact-icon {
 	background-color: #f2f3f4;
 }
 .fa {
@@ -56,7 +60,9 @@ pre {
 }
 .top {
 	color: #999999;
-
+	position: absolute;
+    top: 0;
+    right: 15px;
 }
 
 .item1, .item2 {
@@ -78,6 +84,7 @@ pre {
     border-radius: 0px;
     padding: 15px;
     height: auto;
+    margin-bottom: 30px;
 }
 .gt {
     border: none;
@@ -107,7 +114,10 @@ pre {
 		}
 
 		.icons {
-			padding: 40px 0px;
+			padding: 30px 0px 0px 30px;
+		}
+		.footer {
+			padding: 30px 0px;
 		}
 
 		.icon.style2 {
@@ -202,10 +212,10 @@ pre {
 	color: #adadad;
 }
 
-.form-group {
+/*.form-group {
 			padding: 30px 0px 40px 0px;
 			border-radius: 100%;
-		}
+		}*/
 .btn-tobais {
 	transition: all 1s ease;
 	border-radius: 15px;
@@ -218,10 +228,6 @@ pre {
 }
 .hover-off:hover{
 	color: #fff;
-}
-.contact {
-
-	padding: 20px 0px;
 }
 
 /* Header */
@@ -294,10 +300,10 @@ img.img-responsive {
     color: #fff;
     margin-top: 30px;
 }
-.radio-inline {
+/*.radio-inline {
 
 	padding: 20px;
-}
+}*/
 .btn-defalt {
 
 	background-color: #333;
@@ -484,6 +490,10 @@ button[disabled], html input[disabled] {
 				list-style: none;
 				margin: 0 0 1em 0;
 				padding: 0;
+			}
+			#menu > .inner > h2 {
+				list-style: none;
+				padding-bottom: 15px;
 			}
 
 				#menu > .inner > ul > li {
@@ -766,10 +776,13 @@ button[disabled], html input[disabled] {
 }
 li.social-icons {
     padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .social-contact {
     padding-top: 10px;
     padding-left: 0px;
+    text-align: center;
 }
 .socials-icons a {
     width: 40px;
@@ -786,4 +799,36 @@ li.social-icons {
 .social-contact li {
     list-style: none;
     display: inline-block;
+}
+.popup-social-contact {
+    padding-top: 10px;
+    padding-left: 0px;
+    text-align: center;
+}
+.popup-socials-icons a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    /* background: #6DBEC2; */
+    background-color: #49C1DC;
+    float: left;
+    color: white;
+    padding-top: 3px;
+    font-size: 20px;
+}
+.popup-social-contact li {
+    list-style: none;
+    display: inline-block;
+}
+textarea#message {
+    margin-top: 35px;
+}
+@media screen and (max-width: 600px) {
+	.mfp-arrow {
+	top: 56%;
+}
+@media screen and (min-width: 601px) {
+	.mfp-arrow {
+	top: 40%;
 }
