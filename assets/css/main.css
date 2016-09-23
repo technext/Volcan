@@ -217,7 +217,7 @@ pre {
 			border-radius: 100%;
 		}*/
 .btn-tobais {
-	transition: all 1s ease;
+	transition: all .5s ease;
 	border-radius: 15px;
 	font-size: 9px;
 	color: #333;
@@ -662,7 +662,7 @@ button[disabled], html input[disabled] {
 
 .a a img.img-responsive {
 	opacity: 0.5;
-	transition: all 0.4s ease-in-out;
+	transition: all 0.5s ease-in-out;
 	
 }
 .a a:hover img.img-responsive{
@@ -677,7 +677,7 @@ button[disabled], html input[disabled] {
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    transition: all .4s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .a a .img-hover .c-table {
