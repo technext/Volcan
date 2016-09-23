@@ -662,7 +662,7 @@ button[disabled], html input[disabled] {
 
 .a a img.img-responsive {
 	opacity: 0.5;
-	transition: all 0.4s ease-in-out;
+	transition: all 1s ease-in-out;
 	
 }
 .a a:hover img.img-responsive{
