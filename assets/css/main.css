@@ -33,7 +33,6 @@ pre {
     font-weight: 700;
     letter-spacing: .5px;
 }
-}
 
 .orange {
 	color: #eb7f36;
@@ -139,10 +138,10 @@ pre {
 			-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 			background-color: transparent;
-			border: solid 1px #c9c9c9;
+			border: solid 4px #f2f3f4;
 			border-radius: 4px;
-			width: 65px;
-			height: 65px;
+			width: 70px;
+			height: 70px;
 			display: inline-block;
 			text-align: center;
 			line-height: 65px;
@@ -156,8 +155,7 @@ pre {
 			}
 
 			.icon.style2:hover {
-				color: #f2849e;
-				border-color: #f2849e;
+				border-color: #c9c9c9;
 			}
 
 			.icon.style2:active {
@@ -693,16 +691,41 @@ button[disabled], html input[disabled] {
 }
 .a a .img-hover {
     position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
+    left: 15px;
+    top: 15px;
+    right: 15px;
+    bottom: 15px;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
     transition: all .5s ease-in-out;
+    opacity: 0.8;
 }
 
+.a a .img-hover.glass {
+    background: #ea766a;
+}
+.a a .img-hover.shoes-glass {
+    background: #a0c4a3;
+}
+.a a .img-hover.hand-parts {
+    background: #da9dd9;
+}
+.a a .img-hover.table-with-phone {
+    background: #6da178;
+}
+.a a .img-hover.orange-shoe {
+    background: #da9567;
+}
+.a a .img-hover.glass-shoes {
+    background: #5dc6aa;
+}
+.a a .img-hover.girls-tops {
+    background: #cab0a6;
+}
+.a a .img-hover.egg-arts {
+    background: #ddd173;
+}
 .a a .img-hover .c-table {
 	display: table;
 	width: 100%;
@@ -716,6 +739,7 @@ button[disabled], html input[disabled] {
 
 .a a .img-hover .c-table .ct-cell .img-title {
 	display: block;
+	letter-spacing: 5px;
 	transition: all 0.5s cubic-bezier(0.81, -0.14, 0.47, 1)
 }
 
@@ -732,11 +756,22 @@ button[disabled], html input[disabled] {
   max-width: 1150px;
   margin: 0px auto;
 }
-.pop-head {
-	margin: 40px;
+.popup-head {
+	margin-top: 50px;
+    margin-bottom: 35px;
+    margin-left: 15px;
+}
+.popup-parapraph {
+	padding: 0px 15px;
 }
 .pop-up-icon {
 	padding: 20px 20px;
+}
+.pop-up:hover {
+    border-color: #c9c9c9;
+}
+li.popup-socials-icons {
+	padding-left: 15px;
 }
 .pop-up {
 			-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -744,13 +779,13 @@ button[disabled], html input[disabled] {
 			-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 			transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 			background-color: transparent;
-			border: solid 1px #c9c9c9;
+			border: solid 4px #ffffff;
 			border-radius: 4px;
 			width: 50px;
 			height: 50px;
 			display: inline-block;
 			text-align: center;
-			line-height: 50px;
+			line-height: 45px;
 			color: inherit;
 			border-radius: 100%;
 		}
@@ -798,7 +833,7 @@ button[disabled], html input[disabled] {
 }
 }
 li.social-icons {
-    padding-left: 20px;
+    padding-left: 15px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -843,6 +878,7 @@ li.social-icons {
 .popup-social-contact li {
     list-style: none;
     display: inline-block;
+    padding-left: 6px;
 }
 textarea#message {
     margin-top: 35px;
@@ -854,4 +890,8 @@ textarea#message {
 @media screen and (min-width: 601px) {
 	.mfp-arrow {
 	top: 40%;
+}
+.mfp-content .white-popup .col-md-4 {
+	padding-right: 25px;
+	padding-left: 25px;
 }
