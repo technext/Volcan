@@ -701,7 +701,9 @@ button[disabled], html input[disabled] {
     transition: all .5s ease-in-out;
     opacity: 0.8;
 }
-
+.a a:hover .img-hover {
+	opacity: 0;
+}
 .a a .img-hover.glass {
     background: #ea766a;
 }
