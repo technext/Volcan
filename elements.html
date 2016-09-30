@@ -21,12 +21,12 @@
 						<header class="header">
 							<div class="inner">
 								<!-- Logo -->
-								<a href="#menu"class="nav-bars">
-									<i class="fa fa-align-justify" aria-hidden="true"></i>
+								<a href="#menu" class="nav-bars">
+									<img src="images/nav_icon.svg" class="img-responsive" alt="Collapsable Navbar">
 								</a>
 								<a href="index.html" class="logo">
-									<span class="symbol"><img src="images/logo.png" alt="" /></span><span class="title">TOBIAS VAN</span>
-								</a><hr>
+									<span class="symbol"><img src="images/logo.png" alt="Title" /></span><span class="title">volca&#769;n</span>
+								</a>
 							</div>
 						</header>
 						<!-- Menu -->
@@ -43,9 +43,7 @@
 		</section>			
 		<div class="container">
 			<div id="main">
-				<div class="inner">
-					<h2>Elements</h2>
-				</div>
+				<h2>Elements</h2>
 			</div>
 			<section class="paragraph">
 				<h1>Heading 1 With Paragraph</h1>
@@ -512,7 +510,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 								<p class="right-color">&copy; Copyright 2016. All rights reserved by <a href="https://themewagon.com/" target="_blank">ThemeWagon</a></p>
 							</div>
 							<div class="col-sm-4 col-xs-3" align="right">
-								<a href="#" class="top" >TOP <i class="fa fa-angle-up" aria-hidden="true"></i> </a>
+								<a href="#" id="back-to-top" class="top" >TOP <i class="fa fa-angle-up" aria-hidden="true"></i> </a>
 							</div>
 						</div>
 					</div>
@@ -523,14 +521,17 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/jquery.magnific-popup.min.js"></script>
 		<script src="assets/js/script.js"></script>
+		
+		<!--  ===== Scroll to Top ====  -->
 		<script>
-			// ===== Scroll to Top ==== 
-			
-			$('#top').click(function() {      // When arrow is clicked
-			    $('body,html').animate({
-			        scrollTop : 0                       // Scroll to top of body
-			    }, 500);
-			});
+			if ($('#back-to-top').length) {
+			    $('#back-to-top').on('click', function (e) {
+			        e.preventDefault();
+			        $('html,body').animate({
+			            scrollTop: 0
+			        }, 700);
+			    });
+			}
 		</script>
 	</body>
 </html>
