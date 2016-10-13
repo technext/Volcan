@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Tobais Van</title>
+		<title>Volca&#769;n</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -14,7 +14,7 @@
 	</head>
 	<body>
 		<!-- Wrapper -->
-		<section class="head">
+		<section class="head" id="header">
 			<div class="wrapper">
 				<div class="container">
 					<div class="row">
@@ -23,11 +23,11 @@
 								<div class="inner">
 									<!-- Logo -->
 									<a href="#menu"class="nav-bars">
-										<i class="fa fa-align-justify" aria-hidden="true"></i>
+										<img src="images/nav_icon.svg" class="img-responsive" alt="Collapsable Navbar">
 									</a>
 									<a href="index.html" class="logo">
-										<span class="symbol"><img src="images/logo.png" alt="" /></span><span class="title">TOBIAS VAN</span>
-									</a><hr>
+										<span class="symbol"><img src="images/logo.png" alt="Title" /></span><span class="title">volca&#769;n</span>
+									</a>
 								</div>
 							</header>
 							<!-- Menu -->
@@ -48,7 +48,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-9">
-						<p class="drescription">Jhone Kabir is a German <span class="orange">award-winning designer</span> raised in Austria & currently living in Stockholm New York City. He had the privillege of working with companies such as Wacom, Sony, Toyta & more. </p>
+						<p class="drescription">Highly motivated front-end developer with <span class="orange">international client portfolio.</span> Driven and permanently curious, I am now specialized in fixing front-end issues that other technology providers can't manage.</p>
 					</div>
 				</div>
 				<div class="tiles">
@@ -215,7 +215,7 @@
 									<div class="img-hover table-with-phone">
 										<div class="c-table">
 											<div class="ct-cell">
-												<h3 class="img-title">TABLATE WITH PHONE</h3>
+												<h3 class="img-title">TAB &amp; PHONE</h3>
 											</div>
 										</div>
 									</div>
@@ -473,7 +473,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8">
-						<h1 class="">GET IN TOUCH</h1>
+						<h1>GET IN TOUCH</h1>
 							<form>
 								<div class="row">
 									<div class="col-md-6">
@@ -502,8 +502,10 @@
 							</div>
 						</div>
 					<div class="col-md-4">
-						<h1 class="">CONTACT INFO</h1>
-							<p>Simple words that are so easy to forget. Every day when I wake up I try to remind myself of just that: Be Useful</p>
+						<h1>CONTACT INFO</h1>
+							<p class="contact-desc">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus voluptatum necessi tatibus.
+							</p>
 							<p><Strong>Address: </Strong> 36th Street, Block A, Mischigan, USA</p>
 							<p><Strong>Call:</Strong> 444 123 025 12</p>						
 							<p><Strong>Fax: </Strong>444 123 025 12</p>						
@@ -566,7 +568,7 @@
 							<p class="right-color">&copy; Copyright 2016. All rights reserved by <a href="https://themewagon.com/" target="_blank">ThemeWagon</a></p>
 						</div>
 						<div class="col-sm-4 col-xs-3" align="right">
-							<a href="#" class="top text-right" >TOP <i class="fa fa-angle-up" aria-hidden="true"></i> </a>
+							<a href="#" id="back-to-top" class="top text-right" >TOP <i class="fa fa-angle-up" aria-hidden="true"></i> </a>
 						</div>
 					</div>
 				</div>											
@@ -577,14 +579,17 @@
 		<script src="assets/js/bootstrap.min.js"></script>
 		<script src="assets/js/jquery.magnific-popup.min.js"></script>
 		<script src="assets/js/script.js"></script>
+
+		<!--  ===== Scroll to Top ====  -->
 	    <script>
-			// ===== Scroll to Top ==== 
-			
-			$('#top').click(function() {      // When arrow is clicked
-			    $('body,html').animate({
-			        scrollTop : 0            // Scroll to top of body
-			    }, 5000);
-			});
+			if ($('#back-to-top').length) {
+			    $('#back-to-top').on('click', function (e) {
+			        e.preventDefault();
+			        $('html,body').animate({
+			            scrollTop: 0
+			        }, 700);
+			    });
+			}
 		</script>
 	</body>
 </html>
