@@ -377,7 +377,7 @@ img.img-responsive {
 }
 @media only screen and (max-width: 400px) {
     .btn-fit-small {
-        padding: 12px 85px;
+        padding: 8px 85px;
     }
 }
 .btn:hover{
