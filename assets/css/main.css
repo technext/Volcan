@@ -365,9 +365,9 @@ img.img-responsive {
 	color: #fff;
 	padding: 12px 170px;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 417px) {
     .btn-fit {
-        padding: 12px 100px;
+        padding: 12px 90px;
     }
 }
 .btn-fit-small {
@@ -375,9 +375,9 @@ img.img-responsive {
 	color: #fff;
 	padding: 8px 153px;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 417px) {
     .btn-fit-small {
-        padding: 8px 85px;
+        padding: 8px 79px;
     }
 }
 .btn:hover{
