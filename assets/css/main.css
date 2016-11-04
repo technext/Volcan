@@ -18,6 +18,9 @@ h1, h2, h3, h4, h5, h6{
 	font-family: 'Istok Web', sans-serif;
 	font-weight: bold;
 }
+textarea {
+	resize: none;
+}
 h1 {
 	font-size: 36px;
 	margin-top: 45px;
