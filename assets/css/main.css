@@ -700,15 +700,23 @@ button[disabled], html input[disabled] {
 .a a .img-hover {
     position: absolute;
     left: 15px;
-    top: 0px;
+    top: 15px;
     right: 15px;
-    bottom: 0px;
+    bottom: 15px;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
     transition: all .5s ease-in-out;
     opacity: 0.8;
 }
+
+@media screen and (max-width: 768px) {
+	.a a .img-hover {
+	top: 0px;
+	bottom: 0px;
+	}
+}
+
 .a a:hover .img-hover {
 	opacity: 0;
 }
@@ -837,11 +845,13 @@ li.popup-socials-icons {
 .pop-up-color section {
 	margin-top: 250px;
 }
+
 @media screen and (max-width: 1024px) {
 	.pop-up-color section {
 	margin-top: 25px;
+	}
 }
-}
+
 li.social-icons {
     padding-left: 15px;
     margin-top: 20px;
