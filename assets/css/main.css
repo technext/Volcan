@@ -54,11 +54,6 @@ pre {
 	margin: 25px 0px 0px 0px;
 }
 
-@media only screen and (max-width: 767px) {
-    .text-center, .text-right {
-        text-align: left;
-    }
-}
 .fa-circle-thin:before, .fa-check-circle:before, .fa-check-square:before, .fa-square-o:before {
     font-size: 25px;
     margin-right: 7px;
@@ -334,10 +329,7 @@ img.img-responsive {
     color: #fff;
     margin-top: 30px;
 }
-/*.radio-inline {
 
-	padding: 20px;
-}*/
 .btn-defalt {
 
 	background-color: #333;
@@ -690,13 +682,8 @@ button[disabled], html input[disabled] {
 .white-popup {
   position: relative;
   background: #FFF;
-  /*padding: 40px;*/
-  /*margin: 20px auto;*/
-  /*text-align: center;*/
-  /*padding: 0px;*/
   width: auto;
   max-width: 1150px;
-  /*margin: 0px auto;*/
 }
 
 .a a img.img-responsive {
@@ -713,9 +700,9 @@ button[disabled], html input[disabled] {
 .a a .img-hover {
     position: absolute;
     left: 15px;
-    top: 15px;
+    top: 0px;
     right: 15px;
-    bottom: 15px;
+    bottom: 0px;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
